@@ -15,7 +15,12 @@ In this lab you have learned about multiplexers and demultiplexers.
 
 ### In plain English describe the function and use of a multiplexer.
 
+A multiplexer allows selecting 1 input from multiple based on selector signals, and outputting that input on a shared data output line. 
+
 ### In plain English describe the function and use of a demultiplexer.
+
+A demultiplexer allows for taking 1 input, and based on selector signals, outputing that data to one of many specific output lines.
 
 ### What other uses might these circuits have? (Think Shannon’s)
 
+A demux hooked up to a counter would act similarly to how WiFi access points circling around clients to deliver each client their packages.
